@@ -53,9 +53,7 @@
 
         body {
             font-family: 'Noto Naskh Arabic', 'Amiri', serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
+            background: transparent;
             color: var(--text-dark);
             line-height: 1.8;
             overflow-x: hidden;
@@ -69,14 +67,7 @@
         }
 
         [data-theme="dark"] body {
-            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
-            background-size: 400% 400%;
-        }
-
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            background: transparent;
         }
 
         /* Animated Background Particles */
